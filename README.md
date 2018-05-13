@@ -1,7 +1,7 @@
 # tensorflow-convolutional-autoencoder
 A simple TensorFlow application for a convolutional autoencoder tested on MNIST.
 
-This implementation follows the tutorial at [pkmital/tensorflow_tutorials](https://github.com/pkmital/tensorflow_tutorials).
+This implementation follows the tutorial at [`pkmital/tensorflow_tutorials`](https://github.com/pkmital/tensorflow_tutorials) (see the TensorFlow installation instructions there).
 
 In the demo setup `run_on_mnist`, it interprets the MNIST data as 28x28 inputs and then uses three convolutional layers, each with
 10 filters (for the number of output digits), reducing the data item size doubly each time.
@@ -22,7 +22,7 @@ Extracting MNIST_data\train-images-idx3-ubyte.gz
 Extracting MNIST_data\train-labels-idx1-ubyte.gz
 Extracting MNIST_data\t10k-images-idx3-ubyte.gz
 Extracting MNIST_data\t10k-labels-idx1-ubyte.gz
-2018-05-14 00:22:38.354169: I C:\tf_jenkins\workspace\tf-nightly-windows\M\windows\PY\36\tensorflow\core\platform\cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX AVX2
+2018-05-14 00:22:38.354169: I <...> Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX AVX2
 0 470.65076
 1 399.151
 2 349.7995
